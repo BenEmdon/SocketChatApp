@@ -1,0 +1,36 @@
+<!--
+	Benjamin Emdon 100955811
+
+	* This is the main page to hold all the chat contents and information on how to use the chat app
+-->
+<!doctype html>
+<html>
+<head>
+	<meta charset = "utf8"/>
+	<title>ChatRoom 📩</title>
+	<link rel="stylesheet" href="style.css"/>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="index.js"></script>
+</head>
+<body>
+	<div class="contents">
+		<div id="chatLogDiv">
+			<textarea id="chatLog" readonly></textarea>
+		</div>
+		<div id="userListDiv">
+			Users:
+			<ul id="userList">
+			</ul>
+		</div>
+	</div>
+	<input id="inputText">
+	<h1><span class="highlight1">Welcome to ChatRoom 📩</span></h1>
+	<p>
+		<span class="highlight2">To block a user: <kbd>ctrl</kbd> + <kbd>click</kbd> OR <kbd>shift</kbd> + <kbd>click</kbd> their username</span>
+	</p>
+	<p>
+		<span class="highlight2">To private message: <kbd>click (x2)</kbd> their username</span>
+	</p>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "a client-server single-page app that allows interactive chat communication, including a private messaging system.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "BenEmdon",
+  "license": "MIT",
+  "dependencies": {
+    "mime-types": "^2.1.13",
+    "socket.io": "^1.6.0"
+  }
+}
