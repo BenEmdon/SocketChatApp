@@ -1,6 +1,4 @@
 /**
-  Benjamin Emdon 100955811
-
   @desc This is a node scokect.io server that handles the ChatRoom app
 */
 

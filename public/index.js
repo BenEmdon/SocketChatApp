@@ -1,6 +1,4 @@
 /**
-  Benjamin Emdon 100955811
-
   @desc This script manages the DOM of index.html and interactes with the ChatRoom server using socket.io
 
   Notes:
